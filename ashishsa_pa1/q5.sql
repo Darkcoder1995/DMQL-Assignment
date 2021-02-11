@@ -1,0 +1,2 @@
+USE employees;
+SELECT d.dept_name,COUNT(*) AS 'noe' FROM departments d INNER JOIN dept_emp e ON e.dept_no=d.dept_no WHERE e.to_date = '9999-01-01' GROUP BY e.dept_no HAVING COUNT(e.dept_no)>20000 ORDER BY d.dept_name;

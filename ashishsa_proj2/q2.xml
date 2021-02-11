@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE biblio[
+<!ELEMENT biblio(book*)>
+<!ELEMENT book (author+)>
+<!ELEMENT author(name)>
+<!ELEMENT book (title,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST book year CDATA #REQUIRED>
+]> -->
+<biblio>
+<book year="...">
+<author>
+<name>...</name>
+</author>
+<title>...</title>
+<price>...</price>
+</book>
+<book year="...">
+<author>
+<name>...</name>
+</author>
+<author>
+<name>...</name>
+</author>
+<title>...</title>
+<price>...</price>
+</book>
+</biblio>

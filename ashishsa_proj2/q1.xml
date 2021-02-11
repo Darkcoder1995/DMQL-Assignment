@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblio[
+<!ELEMENT biblio (author*)>
+<!ELEMENT author (name,book+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT book (title, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST book year CDATA #REQUIRED>
+]>
+<!-- <biblio>
+    <author>
+        <name>ASHISH SANGHVI</name>
+        <book year="2020">
+            <title>THE ART OF PROGRAMMING LANGUAGE</title>
+            <price>2000</price>
+        </book>
+        <book year="2019">
+            <title>INTRODUCTION TO XML</title>
+            <price>3500</price>
+        </book>
+        <name>CHENG-EN CHUANG</name>
+        <book year="2020">
+            <title>ADVANCED DATA BASE SYSTEMS</title>
+            <price>4000</price>
+        </book>
+        <name>RUI LI</name>
+        <book year="2020">
+            <title>INTRODUCTION TO XML</title>
+            <price>4000</price>
+        </book>
+        <name>YUTIAN YAN</name>
+        <book year="2020">
+            <title>INTRODUCTION TO XQUERY</title>
+            <price>4000</price>
+        </book>
+    </author>
+</biblio> -->
